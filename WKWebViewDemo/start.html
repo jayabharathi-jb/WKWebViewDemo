@@ -1,16 +1,19 @@
 <html>
 <head>
     <title>Hello WKWebview</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Type" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
     <script type= "text/javascript" src="./hello.js"></script>
 </head>
 <body>
-    <button id="postAScript">View</button>
-    <script>
-        postAScriptbutton=document.getByElementId('postAScript')
+    <button type="button" id="PostAScript">Post A Script Message!</button></br>
+    <script>var postAScriptbutton = document.getElementById('PostAScript');
         postAScriptbutton.addEventListener('click', function() {
-            alert("clickedd")
-            window.webkit.messageHandlers.postascript.postMessage('posting a script');
-        }, false);
-    </script>
+                                           window.webkit.messageHandlers.postascript.postMessage('posting a script');
+                                           }, false);</script>
 </body>
 </html>

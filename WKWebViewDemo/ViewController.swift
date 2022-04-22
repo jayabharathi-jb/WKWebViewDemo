@@ -31,8 +31,9 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler, WK
 //        webView.load(myRequest)
         self.webView.uiDelegate = self
         self.webView.navigationDelegate = self
+        self.registerScriptsAndEvents()
     }
-    
+
     func registerScriptsAndEvents() {
         let controller = self.webView.configuration.userContentController
         for event in events {
@@ -49,7 +50,7 @@ class ViewController: UIViewController, WKUIDelegate, WKScriptMessageHandler, WK
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if let msgInfo = message.body as? Dictionary<String,Any>{
-            print(msgInfo["height"])
+            print(msgInfo["height"] , "height")
         }
         print("callback reveived")
     }
