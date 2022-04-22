@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Hello WKWebview</title>
+    <script type= "text/javascript" src="./hello.js"></script>
+</head>
+<body>
+    <button id="postAScript">View</button>
+    <script>
+        postAScriptbutton=document.getByElementId('postAScript')
+        postAScriptbutton.addEventListener('click', function() {
+            alert("clickedd")
+            window.webkit.messageHandlers.postascript.postMessage('posting a script');
+        }, false);
+    </script>
+</body>
+</html>

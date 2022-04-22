@@ -13,6 +13,8 @@
 		A471FE64281289EF00030294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A471FE62281289EF00030294 /* Main.storyboard */; };
 		A471FE66281289F100030294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471FE65281289F100030294 /* Assets.xcassets */; };
 		A471FE69281289F100030294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A471FE67281289F100030294 /* LaunchScreen.storyboard */; };
+		A471FE712812A72C00030294 /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = A471FE702812A72B00030294 /* start.html */; };
+		A471FE732812A8E300030294 /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = A471FE722812A8E300030294 /* hello.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A471FE65281289F100030294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A471FE68281289F100030294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A471FE6A281289F100030294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A471FE702812A72B00030294 /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = start.html; sourceTree = "<group>"; };
+		A471FE722812A8E300030294 /* hello.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = hello.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A471FE65281289F100030294 /* Assets.xcassets */,
 				A471FE67281289F100030294 /* LaunchScreen.storyboard */,
 				A471FE6A281289F100030294 /* Info.plist */,
+				A471FE702812A72B00030294 /* start.html */,
+				A471FE722812A8E300030294 /* hello.js */,
 			);
 			path = WKWebViewDemo;
 			sourceTree = "<group>";
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A471FE69281289F100030294 /* LaunchScreen.storyboard in Resources */,
+				A471FE732812A8E300030294 /* hello.js in Resources */,
 				A471FE66281289F100030294 /* Assets.xcassets in Resources */,
 				A471FE64281289EF00030294 /* Main.storyboard in Resources */,
+				A471FE712812A72C00030294 /* start.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
